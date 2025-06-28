@@ -12,6 +12,9 @@ export default defineNuxtConfig({
       routes: ['/LupusCrystalFeed.xml'],
     },
   },
+  router: {
+    base: '/lupuscrystal.github.io/'
+  },
   aos: {
     // Global settings:
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
