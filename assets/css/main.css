@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: rgba(38, 38, 38, 1);
+    --color-accent: rgba(179, 0, 27, 1);
+}
+
+.hover-eyecandy {
+    @apply transition duration-200 md:hover:scale-105 md:hover:rotate-1 md:active:scale-95;
+}
