@@ -3,6 +3,7 @@
         <h1 class="text-3xl md:text-4xl lg:text-5xl text-center font-bold text-accent mt-8">{{post.title}}</h1>
         <section id="blog-post" class="bg-primary max-w-[120rem] rounded-lg mt-8 mb-4 p-2 md:p-4 lg:p-12 border-4 border-accent">
             <ContentRenderer :value="post" />
+            <meta name="fediverse:creator" content="@lupuscrystal@mastodon.social">
         </section>
     </div>
 </template>
@@ -48,6 +49,9 @@ console.log(post);
     }
     hr {
         @apply bg-accent min-h-1.5 rounded-2xl;
+    }
+    code {
+        @apply text-white
     }
 }
 </style>

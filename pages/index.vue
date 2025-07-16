@@ -72,8 +72,38 @@
         <Collapse title="What is your favorite instrument to use in a DAW?">
           Symphony piano, it sounds amazing, eh?
         </Collapse>
+        <Collapse title="Can I listen to some of your music?">
+          I am very much a beginner in music production, so do not raise your expectations high. You can listen to a few selected tracks bellow.
+        </Collapse>
       </WrapBox>
 
+    </div>
+  </section>
+
+  <section class="bg-primary">
+    <div class="relative w-screen min-h-screen flex flex-col justify-center items-center">
+      <MiniTitle class="mt-8">My Music</MiniTitle>
+      <WrapBox class="mb-6 md:p-4">
+        <MusicPlayer title="A Wolf In Sheep's Housing">
+          <source src="/assets/audio/a_Wolf_in_sheeps_housing.flac" type="audio/flac">
+        </MusicPlayer>
+
+        <MusicPlayer title="I Can Not See You Go">
+          <source src="/assets/audio/i_can_not_see_you_go.flac" type="audio/flac">
+        </MusicPlayer>
+
+        <MusicPlayer title="The Shine Of Crystals">
+          <source src="/assets/audio/the_shine_of_crystals.flac" type="audio/flac">
+        </MusicPlayer>
+
+        <MusicPlayer title="They Can Not See">
+          <source src="/assets/audio/they_can_not_see.flac" type="audio/flac">
+        </MusicPlayer>
+
+        <MusicPlayer title="Feel The Pain">
+          <source src="/assets/audio/feel_the_pain.mp3" type="audio/mp3">
+        </MusicPlayer>
+      </WrapBox>
     </div>
   </section>
 </div>
